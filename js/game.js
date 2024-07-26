@@ -2,10 +2,10 @@ const canvas = document.querySelector("#game");
 const ctx = canvas.getContext("2d");
 
 const groundImg = new Image();
-groundImg.src = "/images/ground.png";
+groundImg.src = "/Snake.js/images/ground.png";
 
 const foodImg = new Image();
-foodImg.src = "/images/food.png";
+foodImg.src = "/Snake.js/images/food.png";
 
 let box = 32;
 let score = 0;
